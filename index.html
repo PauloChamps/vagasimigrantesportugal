@@ -1,90 +1,353 @@
-<!DOCTYPE html>
-<html lang="pt-PT">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vagas para Imigrantes em Portugal – Vagas Imigrantes Portugal</title>
-  <meta name="description" content="Encontre vagas atualizadas em Portugal para imigrantes. Descubra oportunidades por cidade, área de trabalho, salários e direitos trabalhistas.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header class="header">
-  <div class="container header-content">
-    <div class="logo">
-      <img src="logo.png" alt="Vagas Imigrantes Portugal">
-      <span>Vagas Imigrantes Portugal</span>
-    </div>
-    <nav class="menu">
-      <ul>
-        <li><a href="index.html" class="active">Início</a></li>
-        <li><a href="vagas-cidade.html">Vagas por Cidade</a></li>
-        <li><a href="vagas-area.html">Vagas por Área</a></li>
-        <li><a href="direitos.html">Direitos Trabalhistas</a></li>
-        <li><a href="salarios.html">Salários</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-
-  <section class="page-header">
-    <h1>Bem-vindo ao Vagas Imigrantes Portugal</h1>
-    <p>Encontre vagas atualizadas em Portugal, conheça seus direitos trabalhistas e descubra salários por setor e cidade.</p>
-  </section>
-
-  <section class="content-layout">
-
-    <article class="main-content">
-      <h2>Como funciona o site</h2>
-      <p>
-        Nosso objetivo é informar imigrantes e residentes sobre oportunidades de emprego em Portugal, de forma clara e confiável. Aqui você encontra:
-      </p>
-      <ul>
-        <li>Vagas por cidade e área de trabalho</li>
-        <li>Informações sobre salários e custo de vida</li>
-        <li>Direitos trabalhistas e contratos</li>
-        <li>Dicas para se candidatar e melhorar remuneração</li>
-      </ul>
-
-      <!-- Espaço para imagem -->
-      <div class="image-placeholder">Imagem sobre vagas em Portugal</div>
-
-      <h2>Vagas recentes</h2>
-      <p>Confira as oportunidades mais recentes:</p>
-      <div class="cards-placeholder">Aqui ficarão os cards de vagas (9 por página)</div>
-
-      <h2>Explore por cidade e área</h2>
-      <ul>
-        <li><a href="vagas-cidade.html">Vagas por Cidade</a></li>
-        <li><a href="vagas-area.html">Vagas por Área</a></li>
-      </ul>
-
-      <p>
-        Acompanhe nosso site para se manter atualizado sobre o mercado de trabalho em Portugal.
-      </p>
-    </article>
-
-    <aside class="sidebar">
-      <div class="sidebar-box image-placeholder">Espaço para banner ou imagem</div>
-    </aside>
-
-  </section>
-
-</main>
-
-<footer class="footer">
-  <div class="container footer-content">
-    <p>© 2026 – Vagas Imigrantes Portugal</p>
-    <ul>
-      <li><a href="sobre.html">Sobre</a></li>
-      <li><a href="contato.html">Contato</a></li>
-      <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
-      <li><a href="termos-uso.html">Termos de Uso</a></li>
-    </ul>
-  </div>
-</footer>
-
-</body>
-</html>
+diff --git a/index.html b/index.html
+index b862b86c32388552a72d42fc3999802c4db9b547..5f7a6fc3a3e1ea62baab47b01832e1b271aeaf23 100644
+--- a/index.html
++++ b/index.html
+@@ -1,90 +1,258 @@
+-<!DOCTYPE html>
+-<html lang="pt-PT">
+-<head>
+-  <meta charset="UTF-8">
+-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-  <title>Vagas para Imigrantes em Portugal – Vagas Imigrantes Portugal</title>
+-  <meta name="description" content="Encontre vagas atualizadas em Portugal para imigrantes. Descubra oportunidades por cidade, área de trabalho, salários e direitos trabalhistas.">
+-  <link rel="stylesheet" href="style.css">
+-</head>
+-<body>
+-
+-<header class="header">
+-  <div class="container header-content">
+-    <div class="logo">
+-      <img src="logo.png" alt="Vagas Imigrantes Portugal">
+-      <span>Vagas Imigrantes Portugal</span>
+-    </div>
+-    <nav class="menu">
+-      <ul>
+-        <li><a href="index.html" class="active">Início</a></li>
+-        <li><a href="vagas-cidade.html">Vagas por Cidade</a></li>
+-        <li><a href="vagas-area.html">Vagas por Área</a></li>
+-        <li><a href="direitos.html">Direitos Trabalhistas</a></li>
+-        <li><a href="salarios.html">Salários</a></li>
+-      </ul>
+-    </nav>
+-  </div>
+-</header>
+-
+-<main class="container">
+-
+-  <section class="page-header">
+-    <h1>Bem-vindo ao Vagas Imigrantes Portugal</h1>
+-    <p>Encontre vagas atualizadas em Portugal, conheça seus direitos trabalhistas e descubra salários por setor e cidade.</p>
+-  </section>
+-
+-  <section class="content-layout">
+-
+-    <article class="main-content">
+-      <h2>Como funciona o site</h2>
+-      <p>
+-        Nosso objetivo é informar imigrantes e residentes sobre oportunidades de emprego em Portugal, de forma clara e confiável. Aqui você encontra:
+-      </p>
+-      <ul>
+-        <li>Vagas por cidade e área de trabalho</li>
+-        <li>Informações sobre salários e custo de vida</li>
+-        <li>Direitos trabalhistas e contratos</li>
+-        <li>Dicas para se candidatar e melhorar remuneração</li>
+-      </ul>
+-
+-      <!-- Espaço para imagem -->
+-      <div class="image-placeholder">Imagem sobre vagas em Portugal</div>
+-
+-      <h2>Vagas recentes</h2>
+-      <p>Confira as oportunidades mais recentes:</p>
+-      <div class="cards-placeholder">Aqui ficarão os cards de vagas (9 por página)</div>
+-
+-      <h2>Explore por cidade e área</h2>
+-      <ul>
+-        <li><a href="vagas-cidade.html">Vagas por Cidade</a></li>
+-        <li><a href="vagas-area.html">Vagas por Área</a></li>
+-      </ul>
+-
+-      <p>
+-        Acompanhe nosso site para se manter atualizado sobre o mercado de trabalho em Portugal.
+-      </p>
+-    </article>
+-
+-    <aside class="sidebar">
+-      <div class="sidebar-box image-placeholder">Espaço para banner ou imagem</div>
+-    </aside>
+-
+-  </section>
+-
+-</main>
+-
+-<footer class="footer">
+-  <div class="container footer-content">
+-    <p>© 2026 – Vagas Imigrantes Portugal</p>
+-    <ul>
+-      <li><a href="sobre.html">Sobre</a></li>
+-      <li><a href="contato.html">Contato</a></li>
+-      <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+-      <li><a href="termos-uso.html">Termos de Uso</a></li>
+-    </ul>
+-  </div>
+-</footer>
+-
+-</body>
+-</html>
++<!DOCTYPE html>
++<html lang="pt-PT">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>Vagas para Imigrantes em Portugal | Empregos, Guias e Direitos</title>
++  <meta name="description" content="Plataforma de vagas para imigrantes em Portugal com empregos fictícios editáveis, guia de documentação, direitos laborais, cidades e espaço para monetização com AdSense.">
++  <meta name="robots" content="index,follow">
++  <link rel="canonical" href="https://vagasimigrantesportugal.com/">
++  <link rel="stylesheet" href="style.css">
++</head>
++<body>
++  <header class="header" id="topo">
++    <div class="container nav-wrap">
++      <a class="brand" href="#topo" aria-label="Página inicial">
++        <span class="brand-badge">VIP</span>
++        <span>
++          <strong>Vagas Imigrantes Portugal</strong>
++          <small>Empregos e informação para quem está a começar</small>
++        </span>
++      </a>
++
++      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
++
++      <nav class="menu" aria-label="Menu principal">
++        <a href="#vagas">Vagas</a>
++        <a href="#cidades">Cidades</a>
++        <a href="#documentos">Documentos</a>
++        <a href="#direitos">Direitos</a>
++        <a href="#faq">FAQ</a>
++        <a href="#contato">Contato</a>
++      </nav>
++    </div>
++  </header>
++
++  <main>
++    <section class="hero">
++      <div class="container hero-grid">
++        <div>
++          <p class="eyebrow">Portal de vagas para imigrantes em Portugal</p>
++          <h1>Encontre trabalho com mais segurança e clareza</h1>
++          <p>
++            Este site foi criado para você publicar e organizar vagas voltadas para imigrantes.
++            Todas as vagas abaixo são <strong>fictícias</strong> para você editar depois.
++          </p>
++          <div class="cta-row">
++            <a class="btn btn-primary" href="#vagas">Ver vagas</a>
++            <a class="btn btn-outline" href="#documentos">Como trabalhar legalmente</a>
++          </div>
++        </div>
++        <aside class="ads-box" aria-label="Espaço para anúncio principal">
++          <p>Espaço para anúncio (AdSense 336x280)</p>
++          <small>Substitua por seu bloco de anúncio quando tiver aprovação.</small>
++        </aside>
++      </div>
++    </section>
++
++    <section class="section" id="vagas">
++      <div class="container">
++        <div class="section-head">
++          <h2>Vagas em destaque</h2>
++          <p>Use os filtros para facilitar a busca.</p>
++        </div>
++
++        <div class="filters" role="search" aria-label="Filtrar vagas">
++          <label>
++            Cidade
++            <select id="filtroCidade">
++              <option value="">Todas</option>
++              <option>Lisboa</option>
++              <option>Porto</option>
++              <option>Braga</option>
++              <option>Faro</option>
++            </select>
++          </label>
++
++          <label>
++            Área
++            <select id="filtroArea">
++              <option value="">Todas</option>
++              <option>Hotelaria</option>
++              <option>Construção</option>
++              <option>Tecnologia</option>
++              <option>Limpeza</option>
++              <option>Logística</option>
++            </select>
++          </label>
++        </div>
++
++        <div class="jobs-grid" id="listaVagas">
++          <article class="job" data-cidade="Lisboa" data-area="Hotelaria">
++            <h3>Rececionista de Hotel (fictícia)</h3>
++            <p><strong>Cidade:</strong> Lisboa</p>
++            <p><strong>Tipo:</strong> Full-time</p>
++            <p><strong>Salário:</strong> €980 + subsídio de alimentação</p>
++            <p><strong>Requisitos:</strong> Português básico e atendimento ao público.</p>
++            <a href="#contato">Quero candidatar-me</a>
++          </article>
++
++          <article class="job" data-cidade="Porto" data-area="Construção">
++            <h3>Ajudante de Obra (fictícia)</h3>
++            <p><strong>Cidade:</strong> Porto</p>
++            <p><strong>Tipo:</strong> Turno diurno</p>
++            <p><strong>Salário:</strong> €1.050</p>
++            <p><strong>Requisitos:</strong> Experiência básica e documentação regular.</p>
++            <a href="#contato">Quero candidatar-me</a>
++          </article>
++
++          <article class="job" data-cidade="Braga" data-area="Logística">
++            <h3>Operador de Armazém (fictícia)</h3>
++            <p><strong>Cidade:</strong> Braga</p>
++            <p><strong>Tipo:</strong> Full-time</p>
++            <p><strong>Salário:</strong> €960 + prémio de produtividade</p>
++            <p><strong>Requisitos:</strong> Organização e disponibilidade imediata.</p>
++            <a href="#contato">Quero candidatar-me</a>
++          </article>
++
++          <article class="job" data-cidade="Faro" data-area="Limpeza">
++            <h3>Auxiliar de Limpeza em Condomínio (fictícia)</h3>
++            <p><strong>Cidade:</strong> Faro</p>
++            <p><strong>Tipo:</strong> Part-time</p>
++            <p><strong>Salário:</strong> €620</p>
++            <p><strong>Requisitos:</strong> Pontualidade e atenção aos detalhes.</p>
++            <a href="#contato">Quero candidatar-me</a>
++          </article>
++
++          <article class="job" data-cidade="Lisboa" data-area="Tecnologia">
++            <h3>Suporte Técnico Júnior (fictícia)</h3>
++            <p><strong>Cidade:</strong> Lisboa</p>
++            <p><strong>Tipo:</strong> Híbrido</p>
++            <p><strong>Salário:</strong> €1.200</p>
++            <p><strong>Requisitos:</strong> Inglês intermediário e noções de redes.</p>
++            <a href="#contato">Quero candidatar-me</a>
++          </article>
++
++          <article class="job" data-cidade="Porto" data-area="Hotelaria">
++            <h3>Empregado de Mesa (fictícia)</h3>
++            <p><strong>Cidade:</strong> Porto</p>
++            <p><strong>Tipo:</strong> Turno rotativo</p>
++            <p><strong>Salário:</strong> €900 + gorjetas</p>
++            <p><strong>Requisitos:</strong> Boa comunicação e simpatia.</p>
++            <a href="#contato">Quero candidatar-me</a>
++          </article>
++        </div>
++
++        <p id="semResultados" class="empty hidden">Nenhuma vaga encontrada para o filtro selecionado.</p>
++      </div>
++    </section>
++
++    <section class="section alt" id="cidades">
++      <div class="container">
++        <div class="section-head">
++          <h2>Vagas por cidade</h2>
++          <p>Páginas rápidas para você expandir depois com conteúdo próprio.</p>
++        </div>
++        <div class="city-grid">
++          <article><h3>Lisboa</h3><p>Maior volume de vagas em serviços, tecnologia e turismo.</p></article>
++          <article><h3>Porto</h3><p>Destaque em restauração, logística e comércio.</p></article>
++          <article><h3>Braga</h3><p>Indústria e centros de distribuição em crescimento.</p></article>
++          <article><h3>Faro</h3><p>Alta procura sazonal em hotelaria e restauração.</p></article>
++        </div>
++      </div>
++    </section>
++
++    <section class="section" id="documentos">
++      <div class="container two-col">
++        <div>
++          <h2>Documentos essenciais para trabalhar em Portugal</h2>
++          <ul class="checklist">
++            <li>NIF (Número de Identificação Fiscal)</li>
++            <li>NISS (Número de Segurança Social)</li>
++            <li>Título de residência ou manifestação de interesse (quando aplicável)</li>
++            <li>Comprovativo de morada</li>
++            <li>Conta bancária em Portugal</li>
++          </ul>
++        </div>
++        <aside class="ads-box" aria-label="Espaço para anúncio lateral">
++          <p>Espaço para anúncio (AdSense 300x250)</p>
++        </aside>
++      </div>
++    </section>
++
++    <section class="section alt" id="direitos">
++      <div class="container">
++        <h2>Direitos laborais básicos</h2>
++        <div class="rights-grid">
++          <article>
++            <h3>Contrato de trabalho</h3>
++            <p>Tenha sempre contrato escrito e guarde cópias assinadas.</p>
++          </article>
++          <article>
++            <h3>Salário mínimo e recibos</h3>
++            <p>Receba por transferência sempre que possível e peça recibo de vencimento.</p>
++          </article>
++          <article>
++            <h3>Descanso e férias</h3>
++            <p>Verifique folgas, férias anuais e pagamento de horas extras.</p>
++          </article>
++        </div>
++      </div>
++    </section>
++
++    <section class="section" id="faq">
++      <div class="container">
++        <h2>Perguntas frequentes</h2>
++        <details>
++          <summary>Posso publicar vagas reais aqui no futuro?</summary>
++          <p>Sim. A estrutura já está pronta para você substituir os textos fictícios por vagas reais.</p>
++        </details>
++        <details>
++          <summary>Este site já pode ser enviado para AdSense?</summary>
++          <p>Sim, desde que você mantenha conteúdo original, páginas completas e política de privacidade atualizada.</p>
++        </details>
++        <details>
++          <summary>Como monetizar melhor?</summary>
++          <p>Combine anúncios com conteúdo útil: guias de documentos, salário por setor e dicas de entrevista.</p>
++        </details>
++      </div>
++    </section>
++
++    <section class="section alt" id="contato">
++      <div class="container two-col">
++        <div>
++          <h2>Contato</h2>
++          <p>Use este bloco para receber currículos ou propostas comerciais.</p>
++          <ul>
++            <li>Email: contato@vagasimigrantesportugal.com</li>
++            <li>WhatsApp: +351 900 000 000</li>
++          </ul>
++        </div>
++        <form class="contact-form" action="#" method="post">
++          <label>Nome<input type="text" placeholder="Seu nome"></label>
++          <label>Email<input type="email" placeholder="seuemail@email.com"></label>
++          <label>Mensagem<textarea rows="4" placeholder="Escreva sua mensagem"></textarea></label>
++          <button type="submit">Enviar</button>
++        </form>
++      </div>
++    </section>
++  </main>
++
++  <footer class="footer">
++    <div class="container footer-grid">
++      <p>© 2026 Vagas Imigrantes Portugal</p>
++      <nav aria-label="Links de rodapé">
++        <a href="#">Sobre</a>
++        <a href="#">Política de Privacidade</a>
++        <a href="#">Termos de Uso</a>
++      </nav>
++      <small>
++        Aviso: este layout contém vagas de exemplo para edição. Antes de publicar, atualize os dados,
++        revise textos legais e adicione scripts oficiais do Google AdSense após aprovação.
++      </small>
++    </div>
++  </footer>
++
++  <script src="app.js"></script>
++</body>
++</html>
